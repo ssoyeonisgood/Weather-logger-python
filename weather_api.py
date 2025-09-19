@@ -1,7 +1,11 @@
 import requests
 from datetime import datetime
+import os
+from dotenv import load_dotenv
 
-API_KEY = "6f4598ea4307e2eec73f487375dc7e6d"  
+load_dotenv()
+
+API_KEY = os.getenv("WEATHER_API_KEY")
 CITY = "Perth,AU"
 URL = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
 
