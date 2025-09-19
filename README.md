@@ -15,12 +15,12 @@ A Python project that collects Perth weather data every 10 seconds, stores it in
 ## Project Structure
 
 
-main.py                     # Main script to run the project
-weather_api.py              # Fetch weather data from API
-data_handler.py             # Save data to CSV
-visualize.py                # Generate and overwrite temperature graph
-weather_data.csv            # Accumulated weather data
-weather_plot.png            # Latest temperature graph
+- main.py                     # Main script to run the project
+- weather_api.py              # Fetch weather data from API
+- data_handler.py             # Save data to CSV
+- visualize.py                # Generate and overwrite temperature graph
+- weather_data.csv            # Accumulated weather data
+- weather_plot.png            # Latest temperature graph
 
 ---
 
